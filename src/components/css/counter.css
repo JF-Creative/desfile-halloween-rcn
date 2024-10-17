@@ -1,0 +1,84 @@
+.fullContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr, 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5% 0;
+    gap: 8px;
+}
+
+.title{
+    grid-row: 1 / 2;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown{
+    grid-row: 2 / 3;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    " b1_2    b2_2    b3_2    b4_2 "
+    " b1_2    b2_2    b3_2    b4_2 "
+    " b1_3    b2_3    b3_3    b4_3 "
+    ;
+}
+
+.timeBlock1 h2{
+    grid-area: b1_2;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock1 h3{
+    grid-area: b1_3;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock2 h2{
+    grid-area: b2_2;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock2 h3{
+    grid-area: b2_3;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock3 h2{
+    grid-area: b3_2;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock3 h3{
+    grid-area: b3_3;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock4 h2 {
+    grid-area: b4_2;
+    margin: 0;
+    padding: 0;
+}
+.timeBlock4 h3{
+    grid-area: b4_3;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+
+
+.timeBlock{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+} */
