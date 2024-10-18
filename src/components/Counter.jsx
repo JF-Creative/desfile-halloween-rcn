@@ -32,7 +32,7 @@ export default function Countdown() {
           </div>
           <div className="timeBlock2">
             <h2>{timing.horas}</h2>
-            <h3>Horas</h3>
+            <h3>Hrs</h3>
           </div>
           <div className="timeBlock3">
             <h2>{timing.minutos}</h2>
