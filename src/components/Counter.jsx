@@ -29,7 +29,7 @@ export default function Countdown() {
   if (date >= newYear){
     return(
       <div className="fullContainer">
-        <h2>¡Es hoy!</h2>
+        <h2>¡Vamos a empezar!</h2>
         <h3>Nos vemos en Multicentro</h3>
       </div>
     )
