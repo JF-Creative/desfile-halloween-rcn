@@ -26,43 +26,42 @@ export default function Countdown() {
     return () => clearInterval(intervalID);
   }, []);
 
-  if (date >= newYear  && date < thanks){
-    return(
-      <div className="fullContainer">
-        <h2>¡Vamos a empezar!</h2>
-        <h3>Nos vemos en Multicentro</h3>
-      </div>
-    )
-  }
+  // if (date >= newYear  && date < thanks){
+  //   return(
+  //     <div className="fullContainer">
+  //       <h2>¡Vamos a empezar!</h2>
+  //       <h3>Nos vemos en Multicentro</h3>
+  //     </div>
+  //   )
+  // }
   
-  if (date >= today){
-    return(
-      <div className="fullContainer">
-        <h2 className="title">Falta:</h2>
-        <div className="countdown">
-            <div className="timeBlock2">
-              <h2>{timing.horas}</h2>
-              <h3>Hrs</h3>
-            </div>
-            <div className="timeBlock3">
-              <h2>{timing.minutos}</h2>
-              <h3>Min</h3>
-            </div>
-            <div className="timeBlock4">
-              <h2>{timing.segundos}</h2>
-              <h3>Seg </h3>
-            </div>
-          </div>
-      </div>
-    )
-  }
+  // if (date >= today){
+  //   return(
+  //     <div className="fullContainer">
+  //       <h2 className="title">Falta:</h2>
+  //       <div className="countdown">
+  //           <div className="timeBlock2">
+  //             <h2>{timing.horas}</h2>
+  //             <h3>Hrs</h3>
+  //           </div>
+  //           <div className="timeBlock3">
+  //             <h2>{timing.minutos}</h2>
+  //             <h3>Min</h3>
+  //           </div>
+  //           <div className="timeBlock4">
+  //             <h2>{timing.segundos}</h2>
+  //             <h3>Seg </h3>
+  //           </div>
+  //         </div>
+  //     </div>
+  //   )
+  // }
 
   if (date >= thanks){
     return(
-      <div className="fullContainer">
-        <h2>¡Gracias Ibagué!</h2>
-        <h3>La pasamos genial con nuestros niños y niñas</h3>
-      </div>
+      <div>
+        <h3>¡Gracias Ibagué!</h3>
+     </div>
     )
   }
 
