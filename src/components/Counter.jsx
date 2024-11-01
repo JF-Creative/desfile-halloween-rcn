@@ -7,7 +7,7 @@ export default function Countdown() {
   const date = new Date();
   const newYear = new Date("2024-10-31T15:30:00");
   const today = new Date("2024-10-31T00:00:00");
-  const thanks = new Date("2024-10-31T00:00:00");
+  const thanks = new Date("2024-10-31T19:00:00");
 
   useEffect(() => {
     const intervalID = setInterval(() => {
