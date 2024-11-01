@@ -26,7 +26,7 @@ export default function Countdown() {
     return () => clearInterval(intervalID);
   }, []);
 
-  if (date >= newYear){
+  if (date >= newYear  && date < thanks){
     return(
       <div className="fullContainer">
         <h2>¡Vamos a empezar!</h2>

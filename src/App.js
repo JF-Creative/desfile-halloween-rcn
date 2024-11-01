@@ -16,14 +16,14 @@ function App() {
             <Counter />
           </div>
         </div>
-        <h1 className="zelda">
+        {/* <h1 className="zelda">
           <a
             href="https://docs.google.com/forms/d/12wXmqzgv-07lQ_YWS21zFDfFjUwlHHYGb9C4f5EDNpM/viewform?edit_requested=true"
             target="blank"
           >
             Inscríbete aquí
           </a>
-        </h1>
+        </h1> */}
         <div className="patreonContainer">
           <img src="logos1.png" alt="patrocinadores" className="logos1" />
           <div className="sliderContainer">
